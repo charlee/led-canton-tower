@@ -1,0 +1,260 @@
+{
+  "uuid": "eb0721fb20d4ad7c5f94e5bb6f600ba8",
+  "path": "Offline/LED Canton Tower",
+  "name": "LED Canton Tower",
+  "content": "",
+  "created_at": "2021-09-07 10:50:06",
+  "updated_at": "2021-09-07 18:37:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4b384972f64c9f6ca8221506b4c21cb1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "93550193a7f67900f32a85bad256d13c": 1,
+        "dbfa7da092bc44faa13a86aaa683160b": 2,
+        "8a18c9812e8f3cb94c5c3af605806854": 1,
+        "e3be08079aa14ad891d42f46a7df393a": 1,
+        "a1a68e8402b9461199345d2cae776c3f": 33,
+        "65cbe7a1608343d2bf462a7680fb7efb": 4,
+        "3b5570c6a2e343b4a0b894f5f60dd219": 2,
+        "eb4b9aee9bd548aaa0d8f2be9fe0b10f": 16,
+        "a7291ceaee5442a999df26c55c7e675d": 1,
+        "fbc9a081bfdb44a9b58b590f7333863a": 2,
+        "65b1ae295679465fabfb76c1fc7cc7e6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ULN2803A",
+          2,
+          "DIP-18_L23.0-W6.5-P2.54-LS7.6-BL",
+          "Q2,Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "ULN2803A",
+            "BOM_Supplier Part": "C73936",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "410e4c6012dc4e80aa77814f280c208f",
+            "uuid": "3b5570c6a2e343b4a0b894f5f60dd219"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "OSC-TH_L11.1-W4.7-P4.88",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X49UD12MSD2SC",
+            "BOM_Supplier Part": "C2188",
+            "puuid": "f3d6765e8b414ebaa8638ba17f168459",
+            "uuid": "8a18c9812e8f3cb94c5c3af605806854"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x5",
+          1,
+          "HDR-F-2.54_1X5",
+          "H4",
+          {
+            "BOM_Supplier Part": "C50950",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
+            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+          }
+        ],
+        [
+          "SN74HC595N",
+          4,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U4,U1,U2,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74HC595N",
+            "BOM_Supplier Part": "C78711",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "65cbe7a1608343d2bf462a7680fb7efb"
+          }
+        ],
+        [
+          "STC89C52RC-40I",
+          1,
+          "DIP-40_L52.0-W13.7-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STC",
+            "BOM_Manufacturer Part": "STC89C52RC-40I",
+            "BOM_Supplier Part": "C14022",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ffc99a9154af47da9e011f86dc970875",
+            "uuid": "93550193a7f67900f32a85bad256d13c"
+          }
+        ],
+        [
+          "1k",
+          16,
+          "R_AXIAL-0.3",
+          "R17,R29,R18,R30,R20,R19,R32,R23,R24,R22,R21,R25,R26,R28,R27,R31",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R33",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "220",
+          16,
+          "R_AXIAL-0.3",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R16,R15,R14,R13,R12,R11,R10,R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "1u",
+          2,
+          "RAD-0.1",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D3.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a39e211d07fc49f09c02819227c89e5f",
+            "uuid": "e3be08079aa14ad891d42f46a7df393a"
+          }
+        ],
+        [
+          "2N3906(TO-92)",
+          16,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q4,Q12,Q14,Q10,Q8,Q13,Q17,Q5,Q6,Q18,Q16,Q7,Q11,Q15,Q3,Q9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "2N3906",
+            "BOM_Supplier Part": "C9809",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "eb4b9aee9bd548aaa0d8f2be9fe0b10f"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x16",
+          2,
+          "HDR-F-2.54_1X16",
+          "H2,H3",
+          {
+            "BOM_Supplier Part": "C66987",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "29c1c15af3f64c36a30bd7e9025580c2",
+            "uuid": "fbc9a081bfdb44a9b58b590f7333863a"
+          }
+        ]
+      ],
+      "updateTime": 1631054277,
+      "createTime": 1631026495,
+      "histories": [],
+      "created_at": "2021-09-07 10:54:55",
+      "updated_at": "2021-09-07 18:37:57"
+    },
+    {
+      "uuid": "080c31179d60599ab45bef98d8a35dff",
+      "puuid": "eb0721fb20d4ad7c5f94e5bb6f600ba8",
+      "title": "PCB_LED Canton Tower",
+      "filename": "PCB_LED Canton Tower.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4bb67b2ac49a4595b3ed10b792fcbebb": 1,
+        "410e4c6012dc4e80aa77814f280c208f": 2,
+        "f3d6765e8b414ebaa8638ba17f168459": 1,
+        "1f423f14388b4b17afc87646625a53f6": 4,
+        "3eb1249f3ebb4284ae221b0379016582": 33,
+        "f83673d09e13450d934ca6be4be5af8f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 2,
+        "a39e211d07fc49f09c02819227c89e5f": 1,
+        "6924b36489de4921bb29ca14bf27c33f": 16,
+        "29c1c15af3f64c36a30bd7e9025580c2": 2,
+        "ffc99a9154af47da9e011f86dc970875": 1
+      },
+      "BOM": [],
+      "updateTime": 1631054245,
+      "createTime": 1631029325,
+      "histories": [],
+      "created_at": "2021-09-07 11:42:05",
+      "updated_at": "2021-09-07 18:37:25"
+    }
+  ],
+  "sort": [],
+  "title": "LED Canton Tower",
+  "foldername": "LED Canton Tower",
+  "schfilename": "LED Canton Tower.json",
+  "schfilemtime": 1631054277885
+}
