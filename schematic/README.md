@@ -3,6 +3,15 @@ Schematic of the LED Tower Controller
 
 The schematic is made with [EasyEDA](https://easyeda.com/).
 
+The MCU (U5) is an STC89C52RC (compatible with AT89C52) IC. This is a pretty old and slow IC. A 12MHz crystal oscillator (X1) is used to provide clock.
+Most instructions in the STC89C52 require 12 clock cycles, so a 12MHz oscillator can make each instruction execute in exactly 1μs.
+
+To simplify the hardware connections, four SN74HC595 are used for controlling the LEDs. Therefore only three ports (P2.0, P2.2, P2.4) are used as output.
+
+In order to provide enough current to the LED tower, transistors are used to provide and sink current. On the sink side, two ULN2803A are used instead of
+discrete componentes to simplify hardware connections.
+
+
 ![Schematic](images/schematic.png)
 
 
